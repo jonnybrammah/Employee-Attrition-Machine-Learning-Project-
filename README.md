@@ -13,6 +13,9 @@ TBA
 
 ## Data Sources
 [BLS Quitting Rates](https://beta.bls.gov/dataQuery/find?q=quit+data&q=quit)
+
 [Glassdoor Job Reviews](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews)
+
 [HR Analytics: Job Change of Data Scientists](https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists)
+
 [IBM Employee Attrition](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
