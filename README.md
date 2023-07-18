@@ -10,7 +10,6 @@ Our group is interested in understanding the underlying causes of workers who ch
 
 ## Index 
 TBA
-<img width="300" alt="Screenshot 2023-07-17 at 8 01 54 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/8d156618-cfa1-426e-bde8-9a6c509ee275">
 
 ## Data Sources
 [BLS Quitting Rates](https://beta.bls.gov/dataQuery/find?q=quit+data&q=quit)
