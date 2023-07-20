@@ -39,4 +39,4 @@ For employees with lower monthly income (avg ~$5k) the more likely an employee i
 
 
 The Tableau story for IBM can be found [here](https://public.tableau.com/app/profile/isabelle.roetcisoender/viz/EmployeeAttrition_16896487450400/Story1?publish=yes).
-The Tableau story for Glassdoor can be found [here](https://public.tableau.com/views/Book2_16896564693980/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link). 
+The Tableau story for Glassdoor can be found [here](https://public.tableau.com/shared/WC83GR4M6?:display_count=n&:origin=viz_share_link). 
