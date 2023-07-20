@@ -1,0 +1,140 @@
+---
+title: "Attrition_Test"
+output: html_document
+authors: "Jonny Brammah, Brennan Copp, Francis Crawford, Agustin Estupinan, Isabelle Roetcisoender"
+date: '2023-07-17'
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(dplyr)
+library(readxl)
+library(stringr)
+library(cowplot)
+```
+
+## R Markdown
+
+```{r cars}
+df <- read_csv("cleaned_ibm.csv", show_col_types = FALSE)
+
+```
+
+## 
+```{r}
+str(df)
+```
+
+```{r}
+# Remove employees under 18, StockOptionLevel
+df <- df %>% 
+  select(-c("StockOptionLevel"))
+
+df <- df %>% 
+  mutate(Attrition = ifelse(Attrition == "Yes", 1, 0))
+view(df)
+```
+
+```{r pressure, echo=FALSE}
+model1 <- aov(data = df, Attrition ~ EnvironmentSatisfaction *
+                JobSatisfaction * RelationshipSatisfaction)
+
+model2 <- aov(data = df, Attrition ~ WorkLifeBalance 
+              * TrainingTimesLastYear)
+
+model3 <- aov(data = df, Attrition ~ Gender 
+              * TrainingTimesLastYear)
+
+summary(model1)
+summary(model2)
+summary(model3)
+```
+```{r}
+lm_m1 <- lm(data = df, Attrition ~ EnvironmentSatisfaction *
+                JobSatisfaction * RelationshipSatisfaction)
+
+lm_m2 <- lm(data = df, Attrition ~ WorkLifeBalance 
+              * TrainingTimesLastYear)
+
+lm_m3 <- lm(data = df, Attrition ~ Gender 
+              * PercentSalaryHike)
+
+anova_result1 <- anova(lm_m1)
+anova_result2 <- anova(lm_m2)
+anova_result3 <- anova(lm_m3)
+
+print(anova_result1)
+print(anova_result2)
+print(anova_result3)
+```
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+df2 <- read_csv("converted_job_position_column.csv", show_col_types = FALSE)
+
+```
+
+```{r}
+unique(df2)
+```
+
+```{r}
+str(df2)
+
+df2 <- df2 %>% 
+  select(-"...1")
+
+df2 <- df2 %>% 
+  filter(!str_detect(current, "NOT FOUND"))
+
+df2 <- df2 %>% 
+  filter(!str_detect(current, "Contractor"))
+
+# 
+
+# Convert the current column into a number scale 
+#test <- df2$current %>% 
+#  ifelse(grepl("Former Employee",),1,
+#               ifelse(grepl("Former Employee, less than 1 year"),2,
+#                      ifelse(grepl("Former Employee, more than 1 year",tolower(df$Value)), 3,
+#                             ifelse(grepl("Former Employee, more than 3 years",tolower(df$Value)), 4,
+#                                    ifelse(grepl("Former Employee, more than 5 years",tolower(df$Value)), 5,
+#                                           ifelse(grepl("Former Employee, more than 8 years", tolower(df$Value)), 6,
+#                                                  ifelse(grepl("Former Employee, more than 10 years", tolower(df$Value)), 7,
+#                                                         ifelse(grepl("Current Employee", tolower(df$Value)), 8,
+#                                                                ifelse(grepl("Current Employee, less than 1 year", tolower(df$Value)), 9,
+#                                                                       ifelse(grepl("Current Employee, more than 1 year", #tolower(df$Value)), 10,
+#                                                                              ifelse(grepl("Current Employee, more than 3 years", #tolower(df$Value)), 11,
+#                                                                                     ifelse(grepl("Current Employee, more than 5 years", #tolower(df$Value)), 12,
+#                                                                                            ifelse(grepl("Current Employee, more than 8 #year", tolower(df$Value)), 13,
+#                                                                                                   14))
+#)))))))))))
+
+#test <- case_when(
+#  grepl("Former Employee", df2$current) ~ 1,
+#  grepl("Former Employee, less than 1 year", df2$current) ~ 2,
+#  TRUE ~ NA_integer_
+#  )
+
+#view(test)
+
+```
+
+```{r}
+lm_m1 <- lm(data = df2, employee_position ~ overall_rating *
+                work_life_balance)
+
+lm_m2 <- lm(data = df2, employee_position ~ culture_values 
+              * diversity_inclusion)
+
+lm_m3 <- lm(data = df2, employee_position ~ career_opp 
+              * comp_benefits * senior_mgmt)
+
+anova_result1 <- anova(lm_m1)
+anova_result2 <- anova(lm_m2)
+anova_result3 <- anova(lm_m3)
+
+print(anova_result1)
+print(anova_result2)
+print(anova_result3)
+```
