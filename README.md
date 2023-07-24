@@ -1,6 +1,8 @@
-# Employee-Attrition-Machine-Learning-Project
+# Employee Attrition Machine Learning Project
 
-<img alt="Image Taken from Kredily" src="https://kredily.com/wp-content/uploads/2023/05/featured-image-quiet-quit-1024x585.png">
+<p align="center">
+  <img alt="Image Taken from Kredily" src="https://kredily.com/wp-content/uploads/2023/05/featured-image-quiet-quit-1024x585.png">
+</p>
 
 ## Team Introduction 
 Team Members: Jonny Brammah, Brennan Copp, Francis Crawford, Agustin Estupinan, Isabelle Roetcisoender 
@@ -23,13 +25,31 @@ This dataset included factors, including:
 TBA
 
 ## Data Sources
-[BLS Quitting Rates](https://beta.bls.gov/dataQuery/find?q=quit+data&q=quit)
+[<b>BLS Quitting Rates</b>](https://beta.bls.gov/dataQuery/find?q=quit+data&q=quit)
 
-[Glassdoor Job Reviews](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews)
+[<b>Glassdoor Job Reviews</b>](https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews)
 
-[HR Analytics: Job Change of Data Scientists](https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists)
+[<b>IBM Employee Attrition</b>](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 
-[IBM Employee Attrition](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+-----
+
+### The Great Resignation
+
+The great resignation is a recent and slightly nebulous term, but describes the increase in people leaving their jobs in the wake of the COVID-19 pandemic. The Bureau of Labor Statistics tracks the "Quit rate" in the US economy, and we used this data to plot the following graph:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/BLS%20Graphs/Quit_Rate_Against_Time.png" alt="Great Resignation">
+</p>
+
+This data shows the quit rate in 1000s of people from 2001 to the beginning of 2023. Unsurprisingly, the quit rate drops significantly during recessions (shown by gray lines on the graph). This makes sense as people are more likely to remain in their jobs during uncertain economic times and increased layoffs. Since the great recession in 2008, the quit rate has trended upwards as the economy grew steadily, and then the quit rate decreased significantly during the brief recession in mid-2020, a result of the onset of the COVID-19 pandemic, but then recovered by the end of the year. After this recovery, the great resigniation can be seen in the patch of the graph highlighted green. This peak of quitting goes above the 2009 onwards trend, but there is some evidence of it returning back to that trajectory.
+
+There are many reasons people may leave their jobs; to move to another company for better pay, benefits or working conditions, to change to a type of work that may be more closely alligned with their interests or passions, to look after family, study, or other non-employment related reasons, or to start their own businesses.
+
+Our analysis will focus on how employers can aim to retain talent within their organizations, specifically to retain employees who are likely to leave to other companies. This may have the additional affect of convincing other employees to stay in the workforce with your company, but common sense would suggest an employee who plans to leave to care for family or start their own business may not be convinced to stay by a positive change to their current work environment.
+
+### What Makes an Employee Stay and Why do Employees Leave?
+
+The Harvard Business Review
 
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
