@@ -1,7 +1,11 @@
 # Employee-Attrition-Machine-Learning-Project
 
+![Image taken from Kredily](https://kredily.com/news/quitting-job/)
+
 ## Team Introduction 
 Team Members: Jonny Brammah, Brennan Copp, Francis Crawford, Agustin Estupinan, Isabelle Roetcisoender 
+
+-----
 
 ## Project Overview 
 This project was all about attrition! In the wake of the great resignation, we wanted to investigate why people leave their jobs, what the most statistically significant reasons are, compared to what people say, and finally create a Machine Learning Model that predicts whether an employee is likely to leave or stay.
@@ -13,7 +17,7 @@ This dataset included factors, including:
 - Compensation information (salary, recent increases, stock option, etc.)
 - Employee reviews on work-life balance and culture.
 
-
+-----
 
 ## Index 
 TBA
