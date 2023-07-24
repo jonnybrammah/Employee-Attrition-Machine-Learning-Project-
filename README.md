@@ -136,6 +136,27 @@ This continues to back up the central thesis that culture and environment have a
 
 #### Visualizations
 
+To investigate further, the impact of work-life balance on employee attrition, we looked at how IBM employees rated their work-life balance against whether they stayed or left:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/IBM%20Graphs/Work-life-balance%20vs%20attrition.png">
+</p>
+
+While you can see the employees' average work-life balance ratings are fairly low (around 2.65 out of 5), the employees who left ("Yes") did rate their work-life balance as lower, compared to those that stayed.
+
+Similarly, looking at Glassdoor ratings for work-life balance, we can see that employees who left ("Former") consistently rate their work-life balance at their company than current employees at companies do:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Work-Life-vs-Attrition.png">
+</p>
+
+To consider training, we also looked at how IBM rated their training times last year, split-up into those who left and those who stayed:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/IBM%20Graphs/Training%20vs%20attrition.png">
+</p>
+
+Showing that employees who rated themselves as recieving more/better training last year were more likely to stay ("Yes"). This was not a factor we had considered previously, but clearly has an impact.
+
+It is worth noting that all of these differences in ratings are small between employees who left and those stayed, but this backs up the original point that these small impacts can build up to overcome the employee's interia.
+
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
 
