@@ -182,10 +182,44 @@ The Tableau story for Glassdoor can be found [here](https://public.tableau.com/s
 
 ### Machine Learning Models
 
+Two models were created to predict whether an employee would leave based on the fields in the IBM Dataset:
+- Logistic Regression
+- Neural Network
 
+The logistic regression model had a balanced accuracy (even after random oversampling) of 75%, whereas the first attempt with the neural network model yielded an accuracy of 87%. As such, the neural network model was selected for optimization.
+
+The final neural network model, optimized using Keras-Tuner, consisted of one hidden layer and had an accuracy of just over 90% on the testing set.
+
+<p align="center">
+  <img src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/Output/ML%20Model%20Image.png">
+</p>
+
+Previous attempts utilized more hidden layers, and had extremely high accuracy on the training set, but a notably lower accuracy on the testing set. This implied the model was overfitting on the training data, and so in this case fewer hidden layers was optimal.
+
+There are significant implications to a neural network machine learning model that can predict whether an employee is likely to leave with high accuracy. The main one being that this means that HR departments and managers can respond proactively to the concerns of employees likely to leave, rather than reactively after finding out they are leaving.
 
 -----
 
 ### Recommendations
 
+Our final recommendations to companies hoping to retain their employees can be divided into short-term and long-term:
+
+#### Short-term
+These are things that do not require much capital investment, but that came up again and again in our analysis:
+- <b>Culture and Environment</b>
+   - Both of thse came up in different ways in glassdoor reviews, in "people", "managament"
+   - Work-Life balance was also mentioned and employees who left rated it signicantly lower
+   - Similarly, these were statistically significant in our R analysis, and was mentioned in our initial research.
+   - Management should ve very careful about the culture that is cultivated in the organization, and take pains to make sure it is lived and experienced by employees.
+
+#### Long-term
+These recommendations are likely to have spending implications, but came up a lot:
+- <b>On the job training</b>
+   - This came up as a factor in both our IBM analysis and our Glassdoor reviews, with employees receiving more training less likely to leave
+- <b>Upwards Career Progression</b>
+   - People with lower job satisfaction and less engagement in work were shown to be more likely to leave.
+   - Growth was mentioned consisntely in Glassdoor reviews and employees need to know there is space for them to be challenged and grow in their roles.
+- <b>Pay</b>
+   - This is unsurpsing, but pay was mentioned heavily in both the "Pros" and the "Cons" of Glassdoor reviews. This impacts significantly on whether people feel appreciated.
+   - Similarly, former employees consistently rate pay as less good than employees who remain. This can be a sigificant force to overcome employee intertia.
 
