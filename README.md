@@ -93,28 +93,37 @@ The graph for the word counts in the "Pros" section can be seen below:
   <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Glassdoor%20Most%20Frequently%20Used%20'Pro'%20Words.png" alt="Glassdoor Cons Sentiment">
 </p>
 
-The most common words people mentioned here are:
+<b>The most common words people mentioned here are:
 1) Benefits
 2) People
 3) Pay
 4) Environment
-5) Culture
+5) Culture</b>
 
 The graph for the word counts in the "Cons" section can also be seen below:
 <p align="center">
   <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Glassdoor%20Most%20Frequently%20Used%20'Cons'%20Words.png">
 </p>
 
-The most common words people mentioned here are:
+<b>The most common words people mentioned here are:
 1) Management
 2) Hours
 3) People
 4) Pay
-5) Employees
+5) Employees</b>
 
 Unsurprisingly, pay featured in both. It seems fairly unremarkable that people are likely to mention pay and benefits if they are either good or poor at their organization. Nonetheless, it is worth noting that the importance of pay cannot be overlooked for companies hoping to retain talent.
 
 More surprisinly though, the remaining words seem to back up the earlier discussion of culture and environment having a huge impact on employee attrition. The words "People", "Culture" and "Environment" come up in the pros, with "People", "Employees" and "Management" showing up in the cons. These are all decidedly words reflecting the culture of the organization. Companies should be aware that all employees are responsible for the culture within the workforce, and that this can cause attrition unknowingly.
+
+-----
+
+### IBM Dataset Analysis
+
+IBM provided a dataset that contains many columns about an employee, their job, and their compensation, and whether they left their job.
+
+#### Statistical Analysis
+A two-way anova analysis was conducted on this dataset to determine which of these factors had the highest impact on employee attrition.
 
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
