@@ -55,11 +55,34 @@ The Harvard Business Review, in their article [<b>Why Employees Stay</b>](https:
 
 The force that can cause an employee to overcome this inertia does not need to be a large significant event (although that undoubtedly happens too), but can be the accumulation of many smaller issues. Corporate culture, relationships with their manager, and how engaged an employee is at their job are all factors that can add up slowly to cause an employee to look elsewhere.
 
-#### Glassdoor Data Analysis
+-----
+
+### Glassdoor Data Analysis
+
+#### Sentiment Analysis
 
 To back up these assertions, an analysis was conducted based on Glassdoor Reviews from current and former employees at a range of companies. Glassdoor allows reviews to rate factors like "Company culture", "Work-Life Balance" etc., as well as leave comments about the pros and cons of working at an organization.
 
-The Natural Language Toolkit library was used to analyze the sentiment of the "Pro
+The Natural Language Toolkit library was used to analyze the sentiment of the "Pros" and "Cons" columns to see whether former employees had lower overall sentiment scores than current employees. The VADER module within this library was used to conduct this sentiment analysis. Each review is given a sentiment score from 1 (Most likely to be positive) to -1 (Most likely to be negative), and these were aggregated over all reviews. 
+
+The analysis of the pros column is shown below, with employees separated by their "current/former" designation and length of time spent at the company:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Pros%20Sentiment%20Analysis.png" alt="Glassdoor Pros Sentiment">
+</p>
+
+Similarly, the analysis of the cons column is shown below, with the same designations:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Cons%20Sentiment%20Analysis.png" alt="Glassdoor Cons Sentiment">
+</p>
+
+Some interesting points to note here:
+- Current and Former employees express roughly the same average positive sentiment about the pros of their organization.
+   - With the notable exception of former employees who were at the company for under 1 year. These employees are likely to have negative impressions of their organizations since they left (or were potentially terminated) after a short amount of time. Interns and temporary employees were removed from this analysis to ensure these reviews didn't interfer with these findings.
+- However, former employees expressed significantly more negative sentiment about the cons of their organization.
+
+These graphs seem to back up our hypothesis about interia. Based on these findings, it appears employees may not be typically leaving because the "pros" aren't good enough, they are leaving because the "cons" are bad enough.
 
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
