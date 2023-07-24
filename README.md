@@ -1,6 +1,6 @@
 # Employee-Attrition-Machine-Learning-Project
 
-<img alt="Image Taken from Kredily" src="https://kredily.com/news/quitting-job/">
+<img alt="Image Taken from Kredily" src="https://kredily.com/wp-content/uploads/2023/05/featured-image-quiet-quit-1024x585.png">
 
 ## Team Introduction 
 Team Members: Jonny Brammah, Brennan Copp, Francis Crawford, Agustin Estupinan, Isabelle Roetcisoender 
