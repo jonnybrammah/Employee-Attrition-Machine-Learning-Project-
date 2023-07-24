@@ -125,6 +125,17 @@ IBM provided a dataset that contains many columns about an employee, their job, 
 #### Statistical Analysis
 A two-way anova analysis was conducted on this dataset to determine which of these factors had the highest impact on employee attrition.
 
+ While many factors had a p-value less than 0.05, the most statistically significant were:<b>
+- Environment Satisfaction
+- Job Satisfaction
+- On-the-job training
+- Cultural Values
+- Work-Life Balance</b>
+
+This continues to back up the central thesis that culture and environment have an outsized impact on employee attrition. It also adds in two other features: how much training the employee underwent, and work-life balance. Work-life balance is an aspect of employment that looms large in society, and "hours" also featured in our Glassdoor word counting analysis, whereas training was a surprising factor to have such a significant impact, but makes sense with reflection.
+
+#### Visualizations
+
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
 
