@@ -22,8 +22,17 @@ This dataset included factors, including:
 -----
 
 ## Index 
-TBA
-
+1. [<b>The Great Resignation</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#The-Great-Resignation)
+2. [<b>What Makes an Employee Stay and Why do Employees Leave?</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#What-Makes-an-Employee-Stay-and-Why-do-Employees-Leave?)
+3. [<b>Glassdoor Data Analysis</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Glassdoor-Data-Analysis)
+    - [<b>Sentiment Analysis</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Sentiment-Analysis)
+    - [<b>Word Counting</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Word-Counting)
+4. [<b>IBM Dataset Analysis</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#IBM-Dataset-Analysis)
+    - [<b>Statistical Analysis</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Statistical-Analysis)
+    - [<b>Visualizations</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Visualizations)
+5. [<b>Machine Learning Models</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Machine-Learning-Models)
+6. [<b>Recommendations</b>](https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/blob/main/README.md#Recommendations)
+   
 ## Data Sources
 [<b>BLS Quitting Rates</b>](https://beta.bls.gov/dataQuery/find?q=quit+data&q=quit)
 
@@ -166,10 +175,16 @@ To further illustrate this point, employee Glassdoor reviews for several factors
   <img src="https://raw.githubusercontent.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/main/Output/Glassdoor%20Graphs/Diversity-vs-Attrition.png">
 </p>
 
-
-
-
 The Tableau story for IBM can be found [here](https://public.tableau.com/app/profile/isabelle.roetcisoender/viz/EmployeeAttrition_16896487450400/Story1?publish=yes).
 The Tableau story for Glassdoor can be found [here](https://public.tableau.com/shared/WC83GR4M6?:display_count=n&:origin=viz_share_link). 
+
+-----
+
+### Machine Learning Models
+
+
+-----
+
+### Recommendations
 
 
