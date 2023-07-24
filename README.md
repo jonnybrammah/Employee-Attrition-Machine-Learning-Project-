@@ -47,9 +47,19 @@ There are many reasons people may leave their jobs; to move to another company f
 
 Our analysis will focus on how employers can aim to retain talent within their organizations, specifically to retain employees who are likely to leave to other companies. This may have the additional affect of convincing other employees to stay in the workforce with your company, but common sense would suggest an employee who plans to leave to care for family or start their own business may not be convinced to stay by a positive change to their current work environment.
 
+-----
+
 ### What Makes an Employee Stay and Why do Employees Leave?
 
-The Harvard Business Review
+The Harvard Business Review, in their article [<b>Why Employees Stay</b>](https://hbr.org/1973/07/why-employees-stay) describes a state of Inertia for employees, similar to inertia in physics, where the employee is likely to stay in their current state unless there is a significant force pushing them towards leaving. An employee that feels they are growing, recognized and achieving something worthwhile in their job is likely to have a high inertia. Similarly, employees who work at organizations that they feel are alligned with their values are also likely to have high inertia in their role.
+
+The force that can cause an employee to overcome this inertia does not need to be a large significant event (although that undoubtedly happens too), but can be the accumulation of many smaller issues. Corporate culture, relationships with their manager, and how engaged an employee is at their job are all factors that can add up slowly to cause an employee to look elsewhere.
+
+#### Glassdoor Data Analysis
+
+To back up these assertions, an analysis was conducted based on Glassdoor Reviews from current and former employees at a range of companies. Glassdoor allows reviews to rate factors like "Company culture", "Work-Life Balance" etc., as well as leave comments about the pros and cons of working at an organization.
+
+The Natural Language Toolkit library was used to analyze the sentiment of the "Pro
 
 ## Dashboard 
 <img width="475" alt="Screenshot 2023-07-17 at 8 01 43 PM" src="https://github.com/jonnybrammah/Employee-Attrition-Machine-Learning-Project-/assets/121996386/9968ac3e-d2b9-480b-b6b8-1e243a559b2a">
